@@ -26,14 +26,14 @@ calculator-project/
 git clone https://github.com/your-username/calculator-project.git
 cd calculator-project
 
-**Setup and run backend**
+### 2. Setup and run backend
 cd backend
 npm install express cors body-parser
 node server.js
 
 Server will run at: http://localhost:5000
 
-**Open frontend**
+### Open frontend
 Go to the frontend/ folder.
 Open index.html in your browser.
 Enter two numbers, select an operator, and click Calculate.
