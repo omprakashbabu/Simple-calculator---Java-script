@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  background: linear-gradient(to bottom, #5e2a3aa5, #6a0707e0);
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  background: #ee6262;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  background: linear-gradient(to top, #943f3f, #700808);
+  color: antiquewhite;
+}
+
+/* Input row */
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;  /* space between inputs */
+  margin: 15px 0;
+}
+
+.input-group input,
+.input-group select {
+  flex: 1;
+  max-width: 130px;
+  margin: 5px;
+  padding: 10px 14px;
+  font-size: 16px;
+  background: #f2f0f0;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border: 1px solid #ffdddd;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+/* Button row */
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 18px;
+  font-size: 16px;
+  background: #7d0404;
+  color: #f2f0f0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+  border: 2px solid #735353;
+}
+
+button:hover {
+  background: #600808;
+  transform: scale(1.05);
+}
